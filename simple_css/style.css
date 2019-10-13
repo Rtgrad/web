@@ -1,0 +1,435 @@
+body, ul {
+    /*margin: 0 7.5% 0 7.5%;*/
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.main_block {
+    width: 100%;
+    height: 600px;
+    background-color: #E9E9E9;
+}
+
+.nav_bar {
+    margin: 50px 0 0 0;
+    float: right;
+    padding: 0 7.5% 0 0;
+}
+
+.nav_bar ul {
+    list-style-type: none;
+}
+
+.nav_bar ul li {
+
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.nav_bar ul a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav_bar ul :first-child a {
+    color: #10C9C3;
+}
+
+.logo {
+    float: left;
+    padding: 25px 0 0 100px;
+}
+
+.logo img {
+    width: 58px;
+}
+
+.main_block_head {
+    height: 100px;
+}
+
+.contact_us_block {
+    height: 500px;
+}
+
+.contact_link {
+    height: 100%;
+    float: right;
+    padding-right: 120px;
+    padding-top: 100px;
+}
+
+.contact_link a {
+    height: 20px;
+    width: 60px;
+    background-color: #10C9C3;
+    color: white;
+    text-decoration: none;
+    padding: 15px 60px;
+}
+
+
+.contact_link p {
+    color: #818181;
+}
+
+.about_us_block {
+    height: 400px;
+    /*text-align: center;*/
+}
+
+.about_us_inner_block {
+    text-align: center;
+    width: 43%;
+    margin-left: 29%;
+    padding-top: 50px;
+}
+
+.about_us_block h1 {
+    margin: 0;
+}
+
+.about_us_inner_block img {
+    height: 90px;
+}
+
+.skills_block {
+    width: 100%;
+    height: 600px;
+    background-color: #E9E9E9;
+}
+
+.skills_inner_block {
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+#ui_ux_progress, #web_development_progress, #marketing_progress {
+    height: 4px;
+    width: 500px;
+    color: #10C9C3;
+}
+
+.skills_inner_block p {
+    margin-bottom: 0;
+}
+
+.statistic_block {
+    height: 150px;
+    background-color: #10C9C3;
+    padding-left: 100px;
+}
+
+
+.fa-briefcase, .fa-clock, .fa-star, .fa-heart {
+    color: white !important;
+    font-size: 40px;
+}
+
+.projects_stat {
+    display: inline-block;
+    padding-left: 11%;
+}
+
+.statistic_inner_block {
+    padding-top: 55px;
+}
+
+.statistic_inner_block .projects_stat:first-child {
+    padding-left: 0 !important;
+}
+
+.projects_stat p {
+    color: white;
+    margin: 0;
+    font-family: Lucida Sans Typewriter !important;
+    font-size: 16px !important;
+}
+
+.projects_stat div {
+    display: inline-block;
+    text-align: center;
+}
+
+.projects_stat div:last-child {
+    padding-left: 10px;
+}
+
+.chess_block {
+    height: 500px;
+    display: table;
+    width: 100%;
+}
+
+.chess-tr {
+    display: table-row;
+    width: 100%;
+}
+
+.chess-tr .square {
+    display: table-cell;
+}
+
+.chess-tr {
+    background-color: #DDDDDD;
+}
+
+.chess_block .chess-tr:nth-child(odd) .square:nth-child(odd) {
+    background: #838383;
+}
+
+.chess_block .chess-tr:nth-child(even) .square:nth-child(even) {
+    background: #838383;
+}
+
+.square {
+    width: 25%;
+    height: 250px;
+}
+
+#eye {
+    background-color: black;
+}
+
+.fa-eye {
+    color: white;
+    font-size: 70px;
+}
+
+#eye_inner_block {
+    padding-left: 42%;
+    padding-top: 92px;
+}
+
+.more-work_block {
+    background-color: #F5F5F5;
+    height: 100px;
+}
+
+.more_work_inner_block {
+    padding-top: 45px;
+    text-align: center;
+}
+
+.more_work_inner_block a {
+    color: #B0B0B0;
+    text-decoration: none;
+    font-family: Lucida Sans Typewriter !important;
+    font-size: 17px;
+}
+
+.work_process_block {
+    height: 250px;
+}
+
+.work_process_inner_block {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.work_process_inner_block p {
+    font-family: Bookman !important;
+    color: #B0B0B0;
+    font-size: 17px;
+    margin: 0;
+}
+
+.categorie h1 {
+    font-family: Calibri !important;
+
+}
+
+.categorie p {
+    font-family: Calibri !important;
+    color: #8A8A8A;
+    font-size: 17px;
+    margin: 0;
+}
+
+.work_process_inner_block h1 {
+    font-size: 30px;
+    font-family: Bookman !important;
+}
+
+.video_block {
+    height: 600px;
+    background-color: #E9E9E9;
+}
+
+.video_inner_bock {
+    text-align: center;
+    padding-top: 255px;
+}
+
+.fa-play-circle {
+    color: #10C9C3;
+    font-size: 90px;
+}
+
+.empty_block {
+    height: 100px;
+}
+
+
+.categories_block {
+    background-color: #DDDDDD;
+    height: 550px;
+    width: 100%;
+}
+
+.categories_inner_block {
+    display: table;
+    padding-left: 100px;
+    width: 93%;
+    padding-top: 50px;
+}
+
+.categorie-tr {
+    display: table-row;
+    width: 100%;
+    height: 250px;
+}
+
+.categorie-tr .categorie {
+    display: table-cell;
+}
+
+.categorie {
+    width: 25%;
+    text-align: center;
+}
+
+.fa-gem, .fa-globe, .fa-mobile-alt, .fa-gamepad, .fa-lightbulb, .fa-camera-retro, .fa-magic, .fa-fill-drip {
+    font-size: 34px;
+    color: #10C9C3;
+}
+
+.slider_block {
+    height: 500px;
+    background-color: #10C9C3;
+}
+
+.slider_inner_block {
+    width: 86.5%;
+    margin-left: 100px;
+    height: 500px;
+}
+
+.slick-slide {
+    text-align: center;
+    color: white;
+}
+
+.single-item div {
+    padding-top: 50px;
+    height: 470px;
+    background: transparent;
+}
+
+.partners_block {
+    height: 200px;
+    text-align: center;
+}
+
+.partners_inner_block {
+    padding-left: 100px;
+    width: 90%;
+    padding-top: 40px;
+}
+
+.partners_inner_block ul li {
+    display: inline-block;
+    width: 19%;
+}
+
+.callback_form_block {
+    height: 750px;
+    background-color: #F5F5F5;
+}
+
+.form_text_block {
+    text-align: center;
+}
+
+.form_text_block p {
+    font-family: Calibri !important;
+    color: #8A8A8A;
+    font-size: 17px;
+    margin: 0;
+}
+
+.form_block {
+    width: 50%;
+}
+
+.footer {
+    padding-left: 100px;
+    padding-top: 20px;
+    background-color: black;
+    height: 200px;
+}
+
+.footer div {
+    display: inline-block;
+}
+
+.footer div h1,.footer div  p,.footer div  a {
+    color: white;
+}
+
+.footer div ul li a {
+    color: white;
+}
+
+#footer_1_block {
+    width: 40%;
+}
+
+#footer_2_block {
+    width: 39%;
+}
+
+.form_block input, textarea {
+    background-color: white;
+    border: none;
+}
+
+.form_block input {
+    padding: 20px 15px;
+}
+
+#form_name,
+#form_email {
+    width: 325px;
+}
+
+#form_title {
+    margin-top: 5px;
+    width: 655px;
+}
+
+#form_textarea {
+    width: 655px;
+    margin-top: 5px;
+    height: 150px;
+    padding-left: 10px;
+}
+
+#form_submit {
+    padding: 15px 15px;
+    background-color: #10C9C3;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form_block {
+    margin-top: 20px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.callback_form_inner_block {
+    padding-top: 100px;
+}
